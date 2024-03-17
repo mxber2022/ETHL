@@ -1,0 +1,73 @@
+.pool-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #F0D9B5;
+  border-radius: 15px;
+  margin: 20px auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.pool-description {
+  color: #43464B;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Multiple lines */
+.pool-description::before {
+  content: "Embark on an aquatic journey by contributing your essence to the ChilizJackpotPool. Plunge into the excitement, take a chance, and who knows,";
+}
+
+.pool-description::after {
+  content: "you might emerge as the triumphant explorer! 🌟";
+}
+
+
+.pool-title {
+  font-size: 2.5rem;
+  color: #7E9183;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.pool-description {
+  color: #43464B;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.pool-button {
+  background-color: #E27D60;
+  color: white;
+  padding: 14px 28px;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.pool-button:hover {
+  background-color: #F7A278;
+}
+
+.pool-button.pending {
+  background-color: #E27D60;
+  cursor: not-allowed;
+}
+
+.pool-button.success {
+  background-color: #57CC99;
+  animation: pulse 0.5s ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
