@@ -20,8 +20,8 @@ The outcome of the football game does not impact who is chosen, it is simply the
 Utilise an oracle to initiate the selection of the random winner within the pool.
 
 ## User journey
-Group admin creates pool and sets the committment amount by each individual. 
-Everyone in the group committs agreed upon amount.
+Group admin creates pool and sets the commitment amount by each individual. 
+Everyone in the group commits agreed upon amount.
 Once (if) their team wins, someone is chosen to receive all the money in the pool.
 
 ## Limitations
