@@ -22,12 +22,12 @@ Everyone in the group committs agreed upon amount.
 Once (if) their team wins, someone is chosen to receive all the money in the pool.
 
 ## Limitations
-No multiple pool creation facilitation
-No commitment control 
-No whitelist
-No fan token pools - only CHZ can be committed 
-Random selection initiated by $CITY fan token price movement
-No reimbursement if selection criteria not achieved
+* No multiple pool creation facilitation
+* No commitment control 
+* No whitelist
+* No fan token pools - only CHZ can be committed 
+* Random selection initiated by $CITY fan token price movement
+* No reimbursement if selection criteria not achieved
 
 
 ## Getting Started
